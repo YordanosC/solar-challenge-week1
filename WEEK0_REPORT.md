@@ -62,13 +62,6 @@ We are performing **country-wise EDA** with the following standardized approach:
 
 ---
 
-## 🚧 Challenges
-- **MemoryError** on large `.csv` files when plotting entire time series.
-  - Solution: Downsampled to daily/hourly chunks.
-- Ensured reproducibility of the Python environment using `requirements.txt`
-
----
-
 ## 📦 Requirements
 ```bash
 pandas
