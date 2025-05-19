@@ -1,4 +1,23 @@
-"venv/" 
-"data/" 
-"*.csv" 
-"*.ipynb_checkpoints/" 
+# Python virtual environment
+venv/
+.env/
+
+data/
+*.csv
+*.ipynb_checkpoints/
+
+notebooks/*.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+
+pycache/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+venv/
