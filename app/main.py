@@ -54,11 +54,3 @@ ax.set_title('Average GHI by Country')
 ax.set_xlabel('Country')
 ax.set_ylabel('Average GHI (W/m²)')
 st.pyplot(fig)
-
-# Key Observations
-st.subheader("Key Observations")
-st.markdown("""
-- **GHI Variability**: Check the boxplot to see which country has the highest median GHI and variability.
-- **Regional Potential**: The bar chart ranks countries by average GHI, highlighting top solar potential.
-- **Data Insights**: Use the summary table to compare mean, median, and standard deviation across countries.
-""")
